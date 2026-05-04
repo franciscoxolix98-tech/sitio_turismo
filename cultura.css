@@ -1,5 +1,5 @@
 body{ 
-    background: linear-gradient(to right, rgba(48, 195, 94, 0, 86), rgb(124, 124, 126), rgb(48, 195 , 94, 0, 86));
+    background: linear-gradient(to right, rgba(48, 195, 94, 0, 86), rgb(94, 94, 94), rgb(48, 195 , 94, 0, 86));
 
 }
 h1{
@@ -37,7 +37,7 @@ li a:hover{
 .busqueda{
     display: flex;
     width: 10%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(237, 251, 241);
     height: 3vh;
     border-radius: 25px;
 }
