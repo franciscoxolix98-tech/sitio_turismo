@@ -1,0 +1,57 @@
+body{ 
+    background: linear-gradient(to right, rgba(48, 195, 94, 0, 86), rgb(124, 124, 126), rgb(48, 195 , 94, 0, 86));
+
+}
+h1{
+    background-color: antiquewhite;
+    opacity: 0,5;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+}
+.barra-nav{
+    width: 100%;
+    height: 7vh;
+    background-color: rgb(33,31,30);
+}
+ul{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+li{
+    font-size: 32px;
+    list-style: none;
+}
+ul li a{
+    color:antiquewhite;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color:rgb(223, 32, 18);
+    padding: 5px;
+    border-radius: 30px;
+}
+
+.busqueda{
+    display: flex;
+    width: 10%;
+    background-color: rgb(255, 255, 255);
+    height: 3vh;
+    border-radius: 25px;
+}
+input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    background: transparent;
+} 
+/* Centrar la imagen */
+.imagen-images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; /* opcional: ajusta el tamaño */
+}
