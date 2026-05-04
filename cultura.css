@@ -55,3 +55,113 @@ input{
     margin-right: auto;
     width: 50%; /* opcional: ajusta el tamaño */
 }
+/* Reset básico */
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #dfe9f3, #ffffff);
+}
+
+/* HEADER */
+header{
+    background: #333;
+    color: white;
+    padding-bottom: 10px;
+}
+
+/* Título principal */
+header h1{
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+}
+
+/* NAVBAR */
+.barra-nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 0;
+    padding: 10px;
+    background-color: #222;
+}
+
+.barra-nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.barra-nav ul li a:hover{
+    color: #00ffcc;
+}
+
+/* BUSCADOR */
+.busqueda{
+    margin-left: 20px;
+}
+
+.busqueda input{
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+/* CONTENIDO */
+body > h1{
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+/* Subtítulos */
+h2{
+    width: 80%;
+    margin: 15px auto;
+    color: #555;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Secciones (títulos grandes) */
+h1:not(header h1){
+    width: 80%;
+    margin: 25px auto 10px;
+    color: #222;
+}
+
+/* IMAGEN */
+.imagen-images{
+    display: block;
+    margin: 20px auto;
+    width: 60%;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+    transition: transform 0.3s;
+}
+
+.imagen-images:hover{
+    transform: scale(1.05);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px){
+    .barra-nav ul{
+        flex-direction: column;
+    }
+
+    .imagen-images{
+        width: 90%;
+    }
+
+    h2{
+        width: 90%;
+    }
+
+    h1:not(header h1){
+        width: 90%;
+    }
+}
